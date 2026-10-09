@@ -58,7 +58,7 @@ export default function Calculator() {
     });
   };
 
-  const handleResult = (e: React.MouseEvent<HTMLInputElement, MouseEvent>) => {
+  const handleResult = () => {
     if (calcState.isNewNumber) return;
 
     setCalcState({
